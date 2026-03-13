@@ -15,13 +15,9 @@ Hierarchical plan/task stack extension for the [Pi coding agent](https://github.
 
 ## Installation
 
-Clone or install as a Pi extension:
-
 ```bash
-git clone https://github.com/mbusigin/pi-plan-stack
+pi install pi-plan-stack
 ```
-
-Then add the extension path to your Pi configuration.
 
 ## Tools
 
