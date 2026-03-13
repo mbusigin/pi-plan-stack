@@ -2,8 +2,28 @@
   "name": "pi-plan-stack",
   "version": "0.1.0",
   "description": "Hierarchical plan/task stack for Pi coding agent — auto-continue, journaling, drift detection",
+  "license": "MIT",
+  "author": "mbusigin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mbusigin/pi-plan-stack"
+  },
   "type": "module",
+  "keywords": [
+    "pi",
+    "pi-coding-agent",
+    "extension",
+    "plan",
+    "task",
+    "stack",
+    "agent"
+  ],
   "pi": {
     "extensions": ["./index.ts"]
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*",
+    "@mariozechner/pi-tui": "*",
+    "@sinclair/typebox": "*"
   }
 }
