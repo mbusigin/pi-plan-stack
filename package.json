@@ -1,0 +1,9 @@
+{
+  "name": "pi-plan-stack",
+  "version": "0.1.0",
+  "description": "Hierarchical plan/task stack for Pi coding agent — auto-continue, journaling, drift detection",
+  "type": "module",
+  "pi": {
+    "extensions": ["./index.ts"]
+  }
+}
